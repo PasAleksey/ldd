@@ -22,6 +22,7 @@
     "gulp-util": "^3.0.8"
   },
   "dependencies": {
-    "gulp-pug": "^4.0.1"
+    "gulp-pug": "^4.0.1",
+    "owl.carousel": "^2.3.4"
   }
 }

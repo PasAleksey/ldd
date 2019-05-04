@@ -1,3 +1,122 @@
 .completed-projects {
 	margin-top: 80px;
+	margin-bottom: 80px;
+	.carousel-wrapper {
+		margin-top: 76px;
+		position: relative;
+	}
+}
+.owl-nav-main-projects {
+	height: 0;
+	width: 0;
+	button {
+		border: none;
+		height: 32px;
+		width: 18px;
+		position: absolute;
+		top: 250px;
+		transform: translateY(-50%);
+		background: url("../img/nav-arrow-left.png") center/contain no-repeat !important;
+		&:hover {
+			background: url("../img/nav-arrow-left-hover.png") center/contain no-repeat !important;
+		}
+		&:focus {
+			outline: 0;
+		}
+	}
+	.owl-prev {
+		left: -90px;
+	}
+	.owl-next {
+		transform: rotateY(180deg);
+		right: -90px;
+	}
+}
+
+.owl-carousel-main-projects {
+	.owl-dots {
+		margin: 51px auto 0;
+		text-align: center;
+		.owl-dot {
+			height: 6px;
+			width: 6px;
+			border-radius: 100%;
+			background-color: rgba(0, 0, 0, 0.65);
+			margin: 0 4px;
+			&.active {
+				background-color: rgba(0, 0, 0, 1);
+			}
+		}
+	}
+	.carousel-item {
+		height: 500px;
+		.img-wrapper {
+			position: relative;
+			height: 100%;
+			.main, .hover {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+		.text-wrapper {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: $alternate-primary;
+			overflow: hidden;
+			p {
+				padding: 40px 25px;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 24px;
+			}
+			a {
+				display: inline-block;
+				width: 100%;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 24px;
+				padding: 18px 25px 15px;
+				background-color: $main-primary;
+				.arrow-right {
+					display: inline-block;
+					margin-left: 4px;
+					height: 10px;
+					width: 7px;
+					background: url("../img/arrow-right.svg") center / contain no-repeat;
+				}
+			}
+		}
+	}
+}
+
+.project-footer {
+	color: #000000;
+	margin-top: 51px;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 32px;
+	&-link {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		a {
+			color: $main-primary;
+			border: 1px solid $main-primary;
+			display: inline-block;
+			width: 100%;
+			padding: 12px 0 9px;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 24px;
+			letter-spacing: 0.1px;
+			text-align: center;
+		}
+	}
 }

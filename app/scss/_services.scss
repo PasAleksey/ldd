@@ -36,26 +36,39 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	position: relative;
+	z-index: 1;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(#1d1d1d, 0.4);
+		z-index: -1;
+
+	}
 	&:nth-of-type(2) {
-		background-image: url("../img/serv-1.png");
+		background-image: url("../img/LDD-services-Court-disputes.jpg");
 	}
 	&:nth-of-type(3) {
-		background-image: url("../img/serv-2.png");
+		background-image: url("../img/LDD-services-Land-use-and-real-estate.jpg");
 	}
 	&:nth-of-type(4) {
-		background-image: url("../img/serv-3.png");
+		background-image: url("../img/LDD-Hero-image-Service-3.jpg");
 	}
 	&:nth-of-type(5) {
-		background-image: url("../img/serv-4.png");
+		background-image: url("../img/LDD-Hero-image-Service-4.jpg");
 	}
 	&:nth-of-type(6) {
-		background-image: url("../img/serv-5.png");
+		background-image: url("../img/LDD-Hero-image-Service-5.jpg");
 	}
 	&:nth-of-type(7) {
-		background-image: url("../img/serv-6.png");
+		background-image: url("../img/LDD-Hero-image-Service-6.jpg");
 	}
 	&:nth-of-type(8) {
-		background-image: url("../img/serv-7.png");
+		background-image: url("../img/LDD-Hero-image-Service-7.jpg");
 	}
 	.icon {
 		color: #ffffff;
@@ -70,9 +83,9 @@
 		}
 	}
 	.text {
-		margin-top: 11px;
-		font-size: 22px;
-		font-weight: 700;
-		line-height: 32px;
+		margin-top: 42px;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
 	}
 }

@@ -6,6 +6,9 @@
 @import "hero";
 @import "services";
 @import "completed-projects";
+@import "industries";
+@import "partners";
+@import "news";
 
 ::placeholder {
 	color: #666;
@@ -45,6 +48,11 @@ body {
 			border-color: green;
 		}
 	}
+}
+
+.container-wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .headline {
 	color: $main-primary;
