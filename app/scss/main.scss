@@ -10,6 +10,8 @@
 @import "partners";
 @import "news";
 
+@import "footer";
+
 ::placeholder {
 	color: #666;
 }
@@ -18,6 +20,13 @@
 	background-color: $accent;
 	color: #fff;
 }
+img {
+	user-select: none;
+}
+button {
+	outline: 0;
+	user-select: none;
+}
 a {
 	color: #fff;
 	&:hover {
@@ -25,9 +34,12 @@ a {
 		text-decoration: none;
 	}
 }
-p {
+p, ul, li, label {
 	margin: 0;
 	padding: 0;
+}
+li {
+	list-style-type: none;
 }
 body {
 	margin-top: 60px;

@@ -47,11 +47,31 @@
 				display: inline-block;
 				height: 160px;
 				width: 160px;
+				position: relative;
 				img {
 					height: 100%;
 					width: 100%;
 					object-fit: contain;
 					object-position: center;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+				.partners-main {
+					opacity: 1;
+					transition: 0.3s ease-in-out;
+				}
+				.partners-hover {
+					opacity: 0;
+					transition: 0.3s ease-in-out;
+				}
+				&:hover {
+					.partners-main {
+						opacity: 0;
+					}
+					.partners-hover {
+						opacity: 1;
+					}
 				}
 			}
 		}

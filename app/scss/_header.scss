@@ -6,7 +6,101 @@ header {
 	width: 100%;
 	background-color: $main-primary;
 	z-index: 500;
+	padding: 0 40px;
 	&.shadow {
 		box-shadow: 0 2px #cccccc;
+	}
+}
+.page-navigation li {
+	margin-right: 25px;
+	a {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
+		text-transform: uppercase;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.header-menu {
+	.header-contacts {
+		margin-right: 54px;
+		a {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 20px;
+			&.phone {
+				margin-right: 32px;
+			}
+		}
+		.icon-phone {
+			display: inline-block;
+			height: 12px;
+			width: 12px;
+			background: url("../img/icon-phone.svg") center/contain no-repeat;
+			margin-right: 7px;
+		}
+		.icon-consultation {
+			display: inline-block;
+			height: 14px;
+			width: 14px;
+			background: url("../img/icon-consultation.svg") center/contain no-repeat;
+			margin-right: 6px;
+		}
+	}
+	.header-search {
+		position: relative;
+		overflow: hidden;
+		//min-width: 19px;
+		padding-right: 19px;
+		margin-right: 19px;
+		label {
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			height: 19px;
+			width: 19px;
+			cursor: pointer;
+			right: 0;
+			background: url("../img/icon-search.svg") center/contain no-repeat;
+		}
+		.header-search-input {
+			position: relative;
+			width: 0;
+			border: none;
+			transition: 0.3s ease-in-out;
+			&.active {
+				width: 200px;
+				margin-right: 8px;
+				& ~ label {
+					display: none;
+				}
+				& ~ button {
+					display: inline-block;
+				}
+			}
+		}
+		button {
+			height: 19px;
+			width: 19px;
+			border: none;
+			position: absolute;
+			right: 0;
+			background: url("../img/icon-search.svg") center/contain no-repeat;
+			display: none;
+			cursor: pointer;
+		}
+	}
+	.menu-button {
+		border: none;
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		cursor: pointer;
+		background: url("../img/menu-button.svg") center/contain no-repeat;
 	}
 }

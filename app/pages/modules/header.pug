@@ -1,1 +1,24 @@
-header
+header.d-flex.justify-content-between
+	nav.page-navigation
+		ul.d-flex.align-items-center.h-100
+			li
+				a(href="#") О нас
+			li
+				a(href="#") Услуги
+			li
+				a(href="#") Проекты
+			li
+				a(href="#") Отрасли экономики
+	.header-menu.d-flex.align-items-center
+		.header-contacts.d-flex
+			a.phone.d-flex.align-items-center(href="tel:+74956020326")
+				i.icon-phone
+				span +7 (495) 602-03-26
+			a.consultation.d-flex.align-items-center(href="#")
+				i.icon-consultation
+				span Заказать консультацию
+		form(action="").header-search.d-flex.align-items-center
+			input.header-search-input(type="text" name="search" id="header-search" value="")
+			label(for="header-search")
+			button(type="submit")
+		button.menu-button

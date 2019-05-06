@@ -5,8 +5,11 @@ $(function() {
 		$('header').addClass('shadow');
 		if ( $(document).scrollTop() == 0 ) {
 			$('header').removeClass('shadow');
+			// let win_h = $(window).height();
+			// $("html, body").animate({scrollTop: win_h});
 		}
 	});
+
 	// end
 	// owl carousel
 
@@ -26,10 +29,17 @@ $(function() {
 			margin: 30,
 			nav: true,
 			navContainer: '.owl-nav-main-partners',
-			navText: [ '', '' ],
-			startPosition: 1
+			navText: [ '', '' ]
 		});
 	});
 	//end
-
+	// header-search
+	$('.header-search label').on('click', function () {
+		$('.header-search-input').addClass('active').focus().blur(function () {
+			if ( $('.header-search-input').val() == 0 ) {
+				$('.header-search-input').removeClass('active')
+			}
+		});
+	});
+	//end
 });
