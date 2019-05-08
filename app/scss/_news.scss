@@ -1,53 +1,188 @@
 .news {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	background-color: #f6f6f6;
-	.header {
-		text-transform: uppercase;
-		font-size: 18px;
-		font-weight: 500;
-		line-height: 28px;
-		text-decoration: underline;
-		text-align: center;
-		padding: 8px 0;
-	}
-	.smi .header {
-		background-color: $main-primary;
-	}
-	.legislation .header {
-		background-color: #878787;
-	}
-	.corporate .header {
-		background-color: $alternate-primary;
-	}
-	.date {
+	color: #000000;
+	padding-top: 50px;
+	&-title {
+		width: 50%;
 		margin-top: 30px;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 20px;
-		color: #878787;
+		padding-right: 15px;
+		.date {
+			color: #878787;
+			display: inline-block;
+			margin-top: 20px;
+		}
 	}
-	.title {
-		margin-top: 16px;
-		font-size: 16px;
-		font-weight: 500;
-		line-height: 24px;
-		color: #000000;
+	.link-back {
+		padding: 7px 0 6px;
+		border: 1px solid $main-primary;
+		width: 160px;
+		display: inline-block;
+		text-align: center;
 	}
-	.text {
-		margin-top: 16px;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 20px;
-		color: #000000;
+	.right-box {
+		width: 50%;
+		padding-left: 15px;
+		float: right;
+		margin-bottom: 30px;
 	}
-	.read-more {
-		margin-top: 14px;
-		font-weight: 500;
-		line-height: 20px;
-		color: $main-primary;
-		&:hover {
-			border-bottom: 1px solid $main-primary;
+	&-img {
+		height: 292px;
+		width: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	.person-card-wrapper {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.person-card {
+		padding: 80px 45px 80px 50px;
+		background-color: #f6f6f6;
+		.img {
+			height: 180px;
+			width: 160px;
+			margin-right: 40px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+		.text {
+			.post {
+				color: #8e8e93;
+				margin-top: 4px;
+			}
+		}
+		.communication {
+			margin-top: 11px;
+			a {
+				display: inline-block;
+				margin-top: 5px;
+			}
+		}
+		.consultation-link {
+			display: inline-block;
+			margin-top: 17px;
+			border: 1px solid $main-primary;
+			padding-top: 7px;
+			padding-bottom: 6px;
+			text-align: center;
+			width: 180px;
+		}
+	}
+	&-body {
+		margin-top: 10px;
+		p {
+			margin-top: 20px;
+			a {
+				color: $main-primary;
+				margin-left: 6px;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.practice {
+		clear: both;
+		.title {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		&-item {
+			padding: 92px 40px;
+			background-color: rgba(#1d1d1b, 0.4);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: relative;
+			z-index: 1;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				background-color: rgba(#1d1d1d, 0.4);
+				z-index: -1;
+			}
+			.icon {
+				color: #ffffff;
+				display: inline-block;
+				height: 38px;
+				width: 38px;
+				svg {
+					height: 100%;
+					width: 100%;
+					object-position: center bottom;
+					object-fit: contain;
+				}
+			}
+			.text {
+				color: #ffffff;
+				font-size: 22px;
+				font-weight: 500;
+				line-height: 32px;
+			}
+			&.land-use {
+				background-image: url("../img/LDD-services-Land-use-and-real-estate.jpg");
+			}
+			&.building {
+				background-image: url("../img/LDD-Hero-image-Service-6.jpg");
+			}
+		}
+	}
+	&-media {
+		margin-top: 60px;
+		margin-bottom: 60px;
+		display: none;
+		&.active {
+			display: block;
+		}
+		.headline {
+			text-transform: uppercase;
+			color: $main-primary;
+			text-align: left;
+		}
+		&-card {
+			margin-top: 34px;
+			.date {
+				@extend .text-14;
+				color: #878787;
+			}
+			.title {
+				margin-top: 16px;
+				@extend .h5-like;
+			}
+			.text {
+				margin-top: 16px;
+				@extend .text-14
+			}
+			.link-more {
+				margin-top: 16px;
+				@extend .link-14;
+				&:hover {
+					border-bottom: 1px solid $main-primary;
+				}
+			}
+		}
+	}
+	&-legislation {
+		margin-bottom: 60px;
+		display: none;
+		&.active {
+			display: block;
+		}
+		.headline {
+			text-align: left;
+			color: #8e8e93;
 		}
 	}
 }

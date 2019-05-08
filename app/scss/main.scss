@@ -9,6 +9,7 @@
 @import "industries";
 @import "partners";
 @import "news";
+@import "about";
 
 @import "footer";
 
@@ -19,6 +20,78 @@
 ::selection {
 	background-color: $accent;
 	color: #fff;
+}
+.blockquote {
+	font-family: $blockquote-font;
+}
+.black {
+	color: #000000;
+	&:hover {
+		color: #000000;
+	}
+}
+.white {
+	color: #ffffff;
+	&:hover {
+		color: #000000;
+	}
+}
+.h1-like {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 48px;
+}
+.h2-like {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+}
+.h3-like {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 32px;
+}
+.h4-like {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.h5-like {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.h6-like {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.link-14 {
+	color: $main-primary;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.link-16 {
+	color: $main-primary;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.text-14 {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.text-16 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.text-18 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
 }
 img {
 	user-select: none;
@@ -91,6 +164,43 @@ b, strong {
 	font-weight: bold;
 }
 
+
+
+.main-news {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #f6f6f6;
+	.header {
+		text-transform: uppercase;
+		text-decoration: underline;
+		text-align: center;
+		padding: 8px 0;
+	}
+	.main-news-media .header {
+		background-color: $main-primary;
+	}
+	.legislation .header {
+		background-color: #878787;
+	}
+	.corporate .header {
+		background-color: $alternate-primary;
+	}
+	.date {
+		margin-top: 30px;
+		color: #878787;
+	}
+	.title {
+		margin-top: 16px;
+		color: #000000;
+	}
+	.text {
+		margin-top: 16px;
+		color: #000000;
+	}
+	.read-more &:hover {
+		border-bottom: 1px solid $main-primary;
+	}
+}
 
 
 @import "media"; // Always at the end

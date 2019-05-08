@@ -20,8 +20,7 @@ $(function() {
 			margin: 30,
 			nav: true,
 			navContainer: '.owl-nav-main-projects',
-			navText: [ '', '' ],
-			startPosition: 7
+			navText: [ '', '' ]
 		});
 		// main-partners
 		$('.owl-carousel-main-partners').owlCarousel({

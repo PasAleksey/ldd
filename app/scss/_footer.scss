@@ -21,9 +21,6 @@ footer {
 				a {
 					margin-top: 3px;
 					color: #000000;
-					font-size: 16px;
-					font-weight: 500;
-					line-height: 24px;
 				}
 			}
 			.address {
@@ -33,10 +30,7 @@ footer {
 		.footer-menu {
 			padding-top: 9px;
 			a {
-				color: $main-primary;
-				font-size: 16px;
-				font-weight: 500;
-				line-height: 24px;
+				@extend .link-16;
 				text-transform: uppercase;
 			}
 		}
@@ -50,20 +44,18 @@ footer {
 	.footer-bottom {
 		background-color: $alternate-primary;
 		padding: 20px 0 22px;
-		.copyright {
-			font-size: 14px;
-			font-weight: 400;
-			line-height: 20px;
-			a {
-				text-decoration: underline;
-				margin-left: 6px;
-			}
+		color: rgba(255, 255, 255, 0.6);
+		.copyright a {
+			text-decoration: underline;
+			margin-left: 6px;
+			color: rgba(255, 255, 255, 0.6);
+		}
+		.social-links a {
+			color: rgba(255, 255, 255, 0.6);
 		}
 		.social-and-privacy .privacy {
 			text-decoration: underline;
-			font-size: 14px;
-			font-weight: 400;
-			line-height: 20px;
+			color: rgba(255, 255, 255, 0.6);
 		}
 	}
 }

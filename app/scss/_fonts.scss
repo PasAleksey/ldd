@@ -1,4 +1,7 @@
 @import "_mixins/font-face";
 
 @include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoMedium/Roboto-Medium-webfont", medium);
 @include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+
+@include font-face("helveticaneue", "../fonts/HelveticaNeue/helveticaneue");
