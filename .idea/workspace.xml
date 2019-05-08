@@ -3,23 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8f2058ff-bf8b-481e-903c-6965334e3800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/modules/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/modules/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/modules/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/modules/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_completed-projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_completed-projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_libs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_news.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_news.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_partners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_partners.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pages/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/about.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/pages/about.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="294" column="20" lean-forward="true" selection-start-line="294" selection-start-column="20" selection-end-line="294" selection-end-column="20" />
+                <state relative-caret-position="335">
+                  <caret line="166" column="52" selection-start-line="166" selection-start-column="44" selection-end-line="166" selection-end-column="52" />
                 </state>
               </provider>
             </entry>
@@ -94,8 +81,8 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="3243">
-                      <caret line="141" column="5" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="5" />
+                    <state relative-caret-position="460">
+                      <caret line="113" column="3" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
                     </state>
                   </provider>
                 </entry>
@@ -103,8 +90,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/scss/_about.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="500">
-                      <caret line="261" column="18" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="18" />
+                    <state relative-caret-position="74">
+                      <caret line="240" column="41" selection-start-line="240" selection-start-column="41" selection-end-line="240" selection-end-column="41" />
                     </state>
                   </provider>
                 </entry>
@@ -161,7 +148,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/js/common.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="161">
+                    <state relative-caret-position="506">
                       <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
                     </state>
                   </provider>
@@ -230,6 +217,10 @@
       <find>tit</find>
       <find>none</find>
       <find>500</find>
+      <find>anal</find>
+      <find>anali</find>
+      <find>tab</find>
+      <find>nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,7 +241,6 @@
         <option value="$PROJECT_DIR$/app/scss/_news.scss" />
         <option value="$PROJECT_DIR$/app/scss/_fonts.scss" />
         <option value="$PROJECT_DIR$/app/scss/_vars.scss" />
-        <option value="$PROJECT_DIR$/app/scss/main.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/scss/_libs.scss" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
@@ -258,8 +248,9 @@
         <option value="$PROJECT_DIR$/app/pages/index.pug" />
         <option value="$PROJECT_DIR$/app/scss/_partners.scss" />
         <option value="$PROJECT_DIR$/app/pages/modules/header.pug" />
-        <option value="$PROJECT_DIR$/app/scss/_about.scss" />
+        <option value="$PROJECT_DIR$/app/scss/main.scss" />
         <option value="$PROJECT_DIR$/app/pages/about.pug" />
+        <option value="$PROJECT_DIR$/app/scss/_about.scss" />
       </list>
     </option>
   </component>
@@ -375,12 +366,12 @@
       <updated>1556608805640</updated>
       <workItem from="1556608808503" duration="15212000" />
       <workItem from="1556881547557" duration="23844000" />
-      <workItem from="1557142641236" duration="40165000" />
+      <workItem from="1557142641236" duration="51773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91738000" />
+    <option name="totallyTimeSpent" value="103346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="2756" height="1072" extended-state="0" />
@@ -392,7 +383,7 @@
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -402,7 +393,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12754555" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.12754555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,24 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3243">
-          <caret line="141" column="5" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -556,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="261" column="18" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/news1.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -570,10 +540,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="113" column="3" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/about.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="294" column="20" lean-forward="true" selection-start-line="294" selection-start-column="20" selection-end-line="294" selection-end-column="20" />
+        <state relative-caret-position="335">
+          <caret line="166" column="52" selection-start-line="166" selection-start-column="44" selection-end-line="166" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="240" column="41" selection-start-line="240" selection-start-column="41" selection-end-line="240" selection-end-column="41" />
         </state>
       </provider>
     </entry>
