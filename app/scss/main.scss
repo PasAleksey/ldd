@@ -91,6 +91,17 @@
 		}
 	}
 }
+.arrow-link {
+	span {
+		position: relative;
+		padding-right: 18px;
+		&::before {
+			content: url("../img/icons/arrow-right-black.svg");
+			position: absolute;
+			right: 0;
+		}
+	}
+}
 .text-14 {
 	font-size: 14px;
 	font-weight: 400;

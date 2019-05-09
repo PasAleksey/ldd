@@ -17,10 +17,22 @@ $(function() {
 		// main-projects
 		$('.owl-carousel-main-projects').owlCarousel({
 			loop: true,
+			center:true,
 			margin: 30,
 			nav: true,
 			navContainer: '.owl-nav-main-projects',
-			navText: [ '', '' ]
+			navText: [ '', '' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:3
+				}
+			}
 		});
 		// main-partners
 		$('.owl-carousel-main-partners').owlCarousel({
