@@ -1,0 +1,41 @@
+.btn-rectangle {
+	max-width: 255px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid $main-white;
+	min-height: 48px;
+	transition: 0.2s ease-in-out;
+	&.accent-red {
+		background: $main-primary;
+		border-color: $main-white;
+		color: $main-white;
+		&:hover {
+			background: $main-white;
+			color: $main-primary;
+		}
+	}
+	&.accent-white {
+		background-color: $main-white;
+		border-color: $main-primary;
+		color: $main-primary;
+		&:hover {
+			background: $main-primary;
+			color: $main-white;
+		}
+	}
+	&::before {
+		content: url('../img/icons/plus-black.svg');
+		padding-right: 10px;
+	}
+}
+
+.btn-readmore {
+	span {
+		padding-right: 10px;
+	}
+	&::after {
+		content: url('../img/icons/arrow-right-black.svg');
+	}
+}
