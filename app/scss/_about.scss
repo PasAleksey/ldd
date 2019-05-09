@@ -595,3 +595,16 @@
 		}
 	}
 }
+
+//
+.hidden-aria {
+	padding-top: 40px;
+	[class^="col-"] {
+		p {
+			margin-bottom: 40px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
