@@ -24,13 +24,6 @@
 			outline: 0;
 		}
 	}
-	.owl-prev {
-		left: -90px;
-	}
-	.owl-next {
-		transform: rotateY(180deg);
-		right: -90px;
-	}
 }
 
 .owl-carousel-main-projects {
@@ -66,7 +59,6 @@
 				object-fit: cover;
 				object-position: center;
 				filter: grayscale(1);
-				transition: 0.2s ease-in-out;
 			}
 		}
 		.text-wrapper {
@@ -82,7 +74,7 @@
 				font-weight: 500;
 				line-height: 24px;
 			}
-			a {
+			div.arrow-link {
 				transition: 0.2s ease-in-out;
 				display: block;
 				width: 100%;
@@ -102,7 +94,7 @@
 				}
 			}
 			.text-wrapper {
-				a {
+				div.arrow-link {
 					height: 60px;
 				}
 			}
@@ -119,7 +111,7 @@
 		}
 	}
 	.text-wrapper {
-		a {
+		div.arrow-link {
 			height: 60px;
 		}
 	}

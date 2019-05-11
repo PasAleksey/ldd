@@ -5,8 +5,48 @@
 
 // ≥1200px
 @include media-breakpoint-down(lg) {
+	//Services
+	.services-block {
+		padding: 40px 26px 40px 26px;
+		min-height: 398px;
+		.title {
+			font-size: 16px;
+			font-weight: 500;
+		}
+	}
 	.services-info {
-		padding: 65px 30px 20px;
+		padding: 20px;
+		.title {
+			font-size: 16px;
+			line-height: 24px;
+			margin-bottom: 20px;
+		}
+		.description {
+			font-size: 14px;
+			line-height: 20px;
+			margin-bottom: 25px;
+		}
+		&.main-service {
+			padding-top: 78px;
+			.title {
+				font-size: 22px;
+				margin-bottom: 25px;
+			}
+			.description {
+				font-size: 14px;
+				line-height: 20px;
+				margin-bottom: 25px;
+			}
+		}
+	}
+	//Carousel
+	.carousel-wrapper {
+		.owl-prev {
+			left: -24px;
+		}
+		.owl-next {
+			right: -24px;
+		}
 	}
 	//Footer
 	.footer-cta {
@@ -37,6 +77,15 @@
 	//Footer
 	.social-links li {
 		flex: 0 0 auto;
+	}
+	//Carousel
+	.carousel-wrapper {
+		.owl-prev {
+			display: none;
+		}
+		.owl-next {
+			display: none;
+		}
 	}
 
 }

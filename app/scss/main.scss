@@ -242,4 +242,14 @@ b, strong {
 	}
 }
 
+.carousel-wrapper {
+	.owl-prev {
+		left: -74px;
+	}
+	.owl-next {
+		transform: rotateY(180deg);
+		right: -74px;
+	}
+}
+
 @import "media"; // Always at the end
