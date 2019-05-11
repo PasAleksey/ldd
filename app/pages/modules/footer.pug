@@ -2,7 +2,7 @@ footer
 	.footer-top
 		.container
 			.row
-				.col-lg-3
+				.col-xl-3.col-lg-4.col-md-4
 					.footer-contacts
 						a.footer-logo
 							img(src="/img/LDD-logo.svg" alt="LDD")
@@ -17,62 +17,76 @@ footer
 								| 105005, улица Радио, д. 24, к. 1
 								br
 								| Бизнес-центр "Яуза Тауэр"
-				.col-lg-6
-					.footer-menu.h-100
-						.row.h-100
-							.col-6
-								ul.d-flex.flex-column.justify-content-between.h-100
-									li
-										a(href="#") О нас
-									li
-										a(href="#") Услуги
-									li
-										a(href="#") Проекты
-									li
-										a(href="#") Отрасли экономики
-									li
-										a(href="#") Команда
-							.col-6.h-100
-								ul.d-flex.flex-column.justify-content-between.h-100
-									li
-										a(href="#") Клиенты и партнеры
-									li
-										a(href="#") Отзывы
-									li
-										a(href="#") Пресс-центр
-									li
-										a(href="#") Аналитика
-									li
-										a(href="#") Контакты
-				.col-lg-3
-					.footer-link.h-100
-						ul.d-flex.flex-column.justify-content-between.h-100
-							li
-								a.link-consultation(href="#") Заказать консультацию
-							li
-								a.link-presentatin(href="#") Посмотреть презентацию
-							li
-								a.link-brochure(href="#") Корпоративная брошюра
+				.col-xl-3.col-lg-4.col-md-4.d-none.d-md-block
+					ul.footer-links.d-flex.flex-column
+						li
+							a(href="#").strong-link О нас
+						li
+							a(href="#").strong-link Услуги
+						li
+							a(href="#").strong-link Проекты
+						li
+							a(href="#").strong-link Отрасли экономики
+						li
+							a(href="#").strong-link Команда
+				.col-xl-3.col-lg-4.col-md-4.d-none.d-md-block
+					ul.footer-links.d-flex.flex-column
+						li
+							a(href="#").strong-link Клиенты и партнеры
+						li
+							a(href="#").strong-link Отзывы
+						li
+							a(href="#").strong-link Пресс-центр
+						li
+							a(href="#").strong-link Аналитика
+						li
+							a(href="#").strong-link Контакты
+				.col-xl-3.col-lg-12
+					.row.footer-cta
+						.col-xl-12.col-lg-4.col-md-4.align-items-start.d-flex
+							a(href="#").cta-link
+								img(src="img/icons/call.svg", alt="Заказать")
+								| Заказать консультацию
+						.col-xl-12.col-lg-4.col-md-4.align-xl-items-center.align-items-start.d-flex
+							a(href="#").cta-link
+								img(src="img/icons/flag.svg", alt="Посмотреть")
+								|Посмотреть презентацию
+						.col-xl-12.col-lg-4.col-md-4.align-xl-items-end.align-items-start.d-flex
+							a(href="#").cta-link
+								img(src="img/icons/book.svg", alt="Посмотреть")
+								|Корпоративная брошюра
+
+
 	.footer-bottom
 		.container
 			.row
-				.col-lg-6
+				.col-xl-5.col-lg-4.order-2.order-lg-1
 					.copyright.text-14
 						p © 2018 LDD Все права защищены.
 						p
-							span Копирование контента и его публикация с данного сайта  только с письменного разрешения по запросу.
+							| Копирование контента и его публикация с данного сайта  только с письменного разрешения по запросу.
 							a(href="#") Перейти в раздел Контакты.
-				.col-lg-6
-					.social-and-privacy.d-flex.flex-column.justify-content-between.align-items-end.h-100
-						ul.social-links.d-flex.justify-content-between
-							li
-								a.instagram(href="#") Instagram
-							li
-								a.facebook(href="#") Facebook
-							li
-								a.twitter(href="#") Twitter
-							li
-								a.vk(href="#") ВКонтакте
-							li
-								a.google-plus(href="#") Google+
+				.col-xl-6.col-lg-7.offset-lg-1.offset-xl-1.order-1.order-lg-2
+					ul.social-links.d-flex.justify-content-between.flex-wrap
+						li
+							a(href="#").social-link
+								span.fab.fa-instagram
+								span Instagram
+						li
+							a(href="#").social-link
+								span.fab.fa-facebook
+								span Facebook
+						li
+							a(href="#").social-link
+								span.fab.fa-twitter
+								span Twitter
+						li
+							a(href="#").social-link
+								span.fab.fa-vk
+								span ВКонтакте
+						li
+							a(href="#").social-link
+								span.fab.fa-google-plus-g
+								span Google+
+					.text-md-left.text-lg-right
 						a.privacy.text-14(href="#") Политика конфиденциальности

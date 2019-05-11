@@ -22,108 +22,123 @@ body
 	section.container-wrapper
 		.row.no-gutters.services-container
 			.col-3.services-item
-					.services-info
+					.services-info.active.main-service
 						.title Услуги и юридические сервисы
 						p.description Предлагаем интегрированные, экономически эффективные решения.
 						a.btn-rectangle.accent-red(href="#")
 							span Посмотреть услуги
 
-					.services-block.d-flex.blackout
-						p.text.align-self-end
+			.col-3.services-item
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_disputes.svg")
+						.title Урегулирование споров и судебных разбирательств
+						p.description Превосходное знание действующего законодательства, отслеживание последних тенденций и высокая квалификация сотрудников позволяют решать разногласия, возникающие между участниками процесса.
+						span.btn-readmore(href="#")
+							span Подробнее
+
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_disputes.svg")
+						.title
 							| Урегулирование споров и
 							br
 							| судебных разбирательств
-			.col-3.services-item
-				.services-info
-					.title Урегулирование споров и судебных разбирательств
-					p.description Превосходное знание действующего законодательства, отслеживание последних тенденций и высокая квалификация сотрудников позволяют решать разногласия, возникающие между участниками процесса.
-					a.btn-readmore(href="#")
-						span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_disputes.svg")
-					p.text
-						| Урегулирование споров и
-						br
-						| судебных разбирательств
 			.col-3.services-item
-				.services-info
-					.title Землепользование и недвижимость
-					p.description Сделки с недвижимым имуществом высокой капитализации компетентно и без рисков. Применяем передовые методики и инновационные подходы, предоставляя независимые и объективные рекомендации.
-					a.btn-readmore(href="#")
-						span Подробнее
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_Land.svg")
+						.title Землепользование и недвижимость
+						p.description Сделки с недвижимым имуществом высокой капитализации компетентно и без рисков. Применяем передовые методики и инновационные подходы, предоставляя независимые и объективные рекомендации.
+						span.btn-readmore(href="#")
+							span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_Land.svg")
-					p.text
-						| Землепользование
-						br
-						| и недвижимость
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_Land.svg")
+						.title
+							| Землепользование
+							br
+							| и недвижимость
+
 			.col-3.services-item
-				.services-info
-					.title Инфраструктура и ГЧП
-					p.description Индивидуальные юридические и консультационные услуги для всех сторон ГЧП-проектов в области энергетики, банковского сектора, недвижимости и промышленного производства, горнодобывающей, автомобильной и других отраслях.
-					a.btn-readmore(href="#")
-						span Подробнее
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_Infrastructure.svg")
+						.title Инфраструктура и ГЧП
+						p.description Индивидуальные юридические и консультационные услуги для всех сторон ГЧП-проектов в области энергетики, банковского сектора, недвижимости и промышленного производства, горнодобывающей, автомобильной и других отраслях.
+						span.btn-readmore(href="#")
+							span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_Infrastructure.svg")
-					p.text
-						| Инфраструктура
-						br
-						| и ГЧП
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_Infrastructure.svg")
+						.title
+							| Инфраструктура
+							br
+							| и ГЧП
+
 			.col-3.services-item
-				.services-info
-					.title Интеллектуальная собственность
-					p.description Полный комплекс услуг по вопросам регистрации патентов, товарных знаков и авторских прав в различных областях, а также сопровождение клиентов в Суде по интеллектуальным правам.
-					a.btn-readmore(href="#")
-						span Подробнее
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_intellectual.svg")
+						.title Интеллектуальная собственность
+						p.description Полный комплекс услуг по вопросам регистрации патентов, товарных знаков и авторских прав в различных областях, а также сопровождение клиентов в Суде по интеллектуальным правам.
+						span.btn-readmore(href="#")
+							span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_intellectual.svg")
-					p.text
-						| Интеллектуальная
-						br
-						| собственность
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_intellectual.svg")
+						.title
+							| Интеллектуальная
+							br
+							| собственность
+
 			.col-3.services-item
-				.services-info
-					.title Налоговое консультирование
-					p.description Решение задач в области налогового планирования и оптимизации налогообложения, минимизации налоговых рисков, в том числе налоговое консультирование, налоговый аудит, налоговый арбитраж.
-					a.btn-readmore(href="#")
-						span Подробнее
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_tax_advice.svg")
+						.title Налоговое консультирование
+						p.description Решение задач в области налогового планирования и оптимизации налогообложения, минимизации налоговых рисков, в том числе налоговое консультирование, налоговый аудит, налоговый арбитраж.
+						span.btn-readmore(href="#")
+							span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_tax_advice.svg")
-					p.text
-						| Налоговое
-						br
-						| консультирование
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_tax_advice.svg")
+						.title
+							| Налоговое
+							br
+							| консультирование
+
 			.col-3.services-item
-				.services-info
-					.title Строительство и инжиниринг
-					p.description Юридические и консультационные услуги в отношении вопросов строительства, участие в разработке исходно-разрешительной документации по любым видам объектов недвижимости на территории Российской Федерации.
-					a.btn-readmore(href="#")
-						span Подробнее
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_building.svg")
+						.title Строительство и инжиниринг
+						p.description Юридические и консультационные услуги в отношении вопросов строительства, участие в разработке исходно-разрешительной документации по любым видам объектов недвижимости на территории Российской Федерации.
+						span.btn-readmore(href="#")
+							span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_building.svg")
-					p.text
-						| Строительство
-						br
-						| и инжиниринг
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_building.svg")
+						.title
+							| Строительство
+							br
+							| и инжиниринг
+
 			.col-3.services-item
-				.services-info
-					.title Консультационные услуги
-					p.description Квалифицированное юридическое обеспечение при заключении сделок с применением оригинальных методик и уникального опыта поможет выявить риски, согласовать условия, структурировать проект, как со стороны продавца, так и со стороны покупателя.
-					a.btn-readmore(href="#")
-						span Подробнее
+				a(href="#", title="Подробнее")
+					.services-info
+						img.services-icon(src="/img/icons/LDD_consulting.svg")
+						.title Консультационные услуги
+						p.description Квалифицированное юридическое обеспечение при заключении сделок с применением оригинальных методик и уникального опыта поможет выявить риски, согласовать условия, структурировать проект, как со стороны продавца, так и со стороны покупателя.
+						span.btn-readmore
+							span Подробнее
 
-				.services-block.d-flex.flex-column.justify-content-end.blackout
-					img.services-icon(src="/img/icons/LDD_consulting.svg")
-					p.text
-						| Консультационные
-						br
-						| услуги
+					.services-block.d-flex.flex-column.justify-content-end.blackout
+						img.services-icon(src="/img/icons/LDD_consulting.svg")
+						.title
+							| Консультационные
+							br
+							| услуги
 
 
 	section

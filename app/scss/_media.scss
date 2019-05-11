@@ -8,21 +8,45 @@
 	.services-info {
 		padding: 65px 30px 20px;
 	}
+	//Footer
+	.footer-cta {
+		margin-top: 40px;
+		height: auto;
+	}
 }
 
 // ≥992px
 @include media-breakpoint-down(md) {
-
+	//Footer
+	.privacy {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.footer-cta {
+		margin-top: 30px;
+	}
+	.cta-link {
+		img {
+			margin-right: 2px;
+		}
+	}
 }
 
 // ≥768px
 @include media-breakpoint-down(sm) {
+	//Footer
+	.social-links li {
+		flex: 0 0 auto;
+	}
 
 }
 
 // ≥576px
 @include media-breakpoint-down(xs) {
-
+	//Footer
+	.social-links li {
+		flex: 0 0 50%;
+	}
 }
 
 

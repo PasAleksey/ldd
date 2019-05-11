@@ -2,7 +2,7 @@
 	margin-top: 80px;
 	margin-bottom: 80px;
 	.carousel-wrapper {
-		margin-top: 76px;
+		margin-top: 46px;
 		position: relative;
 	}
 }
@@ -34,8 +34,11 @@
 }
 
 .owl-carousel-main-projects {
+	.owl-stage-outer {
+		padding: 30px 0;
+	}
 	.owl-dots {
-		margin: 51px auto 0;
+		margin: 20px auto 0;
 		text-align: center;
 		.owl-dot {
 			height: 6px;
@@ -107,6 +110,9 @@
 	}
 }
 .owl-item.center {
+	.main-carousel-item {
+		box-shadow: 0px 0px 30px #8E8E93;
+	}
 	.img-wrapper {
 		img {
 			filter: grayscale(0);
