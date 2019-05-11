@@ -48,17 +48,28 @@ footer {
 }
 .footer-cta {
 	height: 100%;
+	div:first-child {
+		.cta-link {
+			img {
+				left: -3px;
+			}
+		}
+	}
 }
 .cta-link {
 	color: #000;
 	font-weight: 400;
 	display: flex;
 	align-items: center;
+	position: relative;
+	padding-left: 16px;
 	img {
-		margin-right: 6px;
+		position: absolute;
+		left: 0;
 	}
 	&:hover {
 		color: $main-primary;
+		text-decoration: underline;
 	}
 }
 .footer-links {
@@ -72,6 +83,9 @@ footer {
 		display: inline-block;
 		text-transform: uppercase;
 		margin-bottom: 14px;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
 .social-links {

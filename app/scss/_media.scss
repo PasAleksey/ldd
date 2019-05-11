@@ -48,6 +48,19 @@
 			right: -24px;
 		}
 	}
+	.owl-carousel-main-partners {
+		.main-carousel-item {
+			.bot-line {
+				margin-top: 50px;
+			}
+			.top-line, .bot-line {
+				a {
+					width: 100%;
+					height: 138px;
+				 }
+			}
+		}
+	}
 	//Footer
 	.footer-cta {
 		margin-top: 40px;
@@ -66,9 +79,7 @@
 		margin-top: 30px;
 	}
 	.cta-link {
-		img {
-			margin-right: 2px;
-		}
+		padding-left: 14px;
 	}
 }
 

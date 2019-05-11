@@ -57,20 +57,13 @@
 					top: 0;
 					left: 0;
 				}
-				.partners-main {
-					opacity: 1;
-					transition: 0.3s ease-in-out;
-				}
 				.partners-hover {
-					opacity: 0;
-					transition: 0.3s ease-in-out;
+					transition: 0.2s ease-in-out;
+					filter: grayscale(1)
 				}
 				&:hover {
-					.partners-main {
-						opacity: 0;
-					}
 					.partners-hover {
-						opacity: 1;
+						filter: grayscale(0)
 					}
 				}
 			}

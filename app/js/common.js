@@ -40,7 +40,18 @@ $(function() {
 			margin: 30,
 			nav: true,
 			navContainer: '.owl-nav-main-partners',
-			navText: [ '', '' ]
+			navText: [ '', '' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				}
+			}
 		});
 	});
 	//end
